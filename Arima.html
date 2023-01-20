@@ -82,9 +82,19 @@
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>ARIMA stock price prediction</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                ARIMA (AutoRegressive Integrated Moving Average) is a statistical method for time series forecasting. It can be used to predict future values of a stock price based on its past values.
+
+                In order to use ARIMA for stock price prediction in Stata, you will first need to have a dataset of historical stock prices. You can then use the "tscreate" command in Stata to create a time series object from the data.
+
+                Next, you will need to perform some time series analysis on the data to identify the appropriate ARIMA model. This will involve determining the order of differencing (d) needed to make the time series stationary, as well as the order of the autoregressive (p) and moving average (q) terms. The "arima" command in Stata can be used to fit the ARIMA model to the data.
+
+                Once the model is fit, you can use the "forecast" command in Stata to make predictions for future stock prices. You can also use the "predict" command to generate predictions for specific values of the independent variables.
+
+                It's important to note that time series forecasting is a complex task, it's important to consider other factors such as economic and political events that might affect stock prices, also you need to evaluate the accuracy of your predictions by comparing them to actual stock prices and using metrics such as mean absolute error (MAE) and root mean squared error (RMSE).
+
+                Overall, ARIMA can be a useful tool for stock price prediction when used in conjunction with other time series analysis techniques and proper evaluation.
               </p>
             </div>
           </div>
